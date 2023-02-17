@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Navbar Styles*/
+nav{
+    background-color: #f85a3f;
+}
+nav .btn{
+    color:#f85a3f
+}
+/*Banner Styles*/
+#banner .carousel-indicators [data-bs-target]{
+    background-color: black;
+    
+}
+#banner .carousel-indicators .active {
+    background-color: #f85a3f;
+}
+
+#banner .carousel-indicators{
+    bottom: -68px!important;
+}
+
+/*About Styles*/
+#about h1:after{
+    content: "";
+    display: block;
+    height:3px;
+    width: 100px;
+    background-color: black;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+#about .icon{
+    height:100px;
+    width:100px;
+    background-color: #f85a3f;
+    position: relative;
+}
+#about .icon i{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+/*Testimonirals*/
+#testimonirals h1:after{
+    content: "";
+    display: block;
+    height:3px;
+    width: 100px;
+    background-color: black;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.bg-danger,.btn-danger{
+    background-color: #f85a3f!important;
+    
+}
+.text-danger{
+    color: #f85a3f !important;
+    font-weight: bold;
+}
+#news .parent{
+    position: relative;
+}
+#news .parent .blog1{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+#news .parent .blog2{
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+#news h1:after{
+    content: "";
+    display: block;
+    height:3px;
+    width: 100px;
+    background-color: black;
+    margin: auto;
+    border-radius: 10px;
+
+}
